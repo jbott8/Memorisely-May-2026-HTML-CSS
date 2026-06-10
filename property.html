@@ -1,0 +1,192 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Harbor View Tower — Ergo</title>
+    <link rel="stylesheet" href="property.css">
+</head>
+<body>
+    <header class="site-header">
+        <div class="header-inner">
+            <a href="#" class="logo">Ergo</a>
+            <nav class="header-nav">
+                <a href="#">Properties</a>
+                <a href="#">Analytics</a>
+                <a href="#">Reports</a>
+            </nav>
+            <button class="header-avatar" aria-label="Account"></button>
+        </div>
+    </header>
+
+    <main class="property-page">
+        <section class="hero" id="hero">
+            <div class="hero-bg" id="hero-bg"></div>
+            <div class="hero-overlay"></div>
+
+            <div class="hero-content">
+                <div class="hero-badge glass">
+                    <span class="badge-dot"></span>
+                    LEED Platinum
+                </div>
+
+                <h1 class="hero-title" id="hero-title">Harbor View Tower</h1>
+                <p class="hero-subtitle" id="hero-subtitle">San Francisco, CA · 42,800 sq ft · Mixed-use commercial</p>
+
+                <div class="hero-stats glass" id="hero-stats">
+                    <div class="stat">
+                        <span class="stat-value">92</span>
+                        <span class="stat-label">Sustainability score</span>
+                    </div>
+                    <div class="stat-divider"></div>
+                    <div class="stat">
+                        <span class="stat-value">−38%</span>
+                        <span class="stat-label">vs. baseline</span>
+                    </div>
+                    <div class="stat-divider"></div>
+                    <div class="stat">
+                        <span class="stat-value">A+</span>
+                        <span class="stat-label">Energy rating</span>
+                    </div>
+                </div>
+
+                <p class="hero-description" id="hero-description">
+                    A waterfront mixed-use tower with integrated solar, greywater recycling, and smart HVAC optimization across 12 floors of office and retail space.
+                </p>
+            </div>
+        </section>
+
+        <section class="tab-cards" aria-label="Property views">
+            <button class="tab-card active" data-tab="overview" aria-pressed="true">
+                <span class="tab-icon" aria-hidden="true">
+                    <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5">
+                        <path d="M3 9.5L12 3l9 6.5V20a1 1 0 01-1 1h-5v-7H8v7H4a1 1 0 01-1-1V9.5z"/>
+                    </svg>
+                </span>
+                <span class="tab-label">Overview</span>
+            </button>
+            <button class="tab-card" data-tab="energy" aria-pressed="false">
+                <span class="tab-icon" aria-hidden="true">
+                    <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5">
+                        <path d="M13 2L4 14h7l-1 8 9-12h-7l1-8z"/>
+                    </svg>
+                </span>
+                <span class="tab-label">Energy</span>
+            </button>
+            <button class="tab-card" data-tab="carbon" aria-pressed="false">
+                <span class="tab-icon" aria-hidden="true">
+                    <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5">
+                        <circle cx="12" cy="12" r="9"/>
+                        <path d="M12 7v5l3 3"/>
+                    </svg>
+                </span>
+                <span class="tab-label">Carbon</span>
+            </button>
+            <button class="tab-card" data-tab="water" aria-pressed="false">
+                <span class="tab-icon" aria-hidden="true">
+                    <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5">
+                        <path d="M12 21c-4-3.5-7-6.5-7-10a7 7 0 1114 0c0 3.5-3 6.5-7 10z"/>
+                    </svg>
+                </span>
+                <span class="tab-label">Water</span>
+            </button>
+            <button class="tab-card" data-tab="certifications" aria-pressed="false">
+                <span class="tab-icon" aria-hidden="true">
+                    <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5">
+                        <path d="M12 15l-3 3 3 3 3-3-3-3z"/>
+                        <path d="M12 3v12"/>
+                        <circle cx="12" cy="12" r="9"/>
+                    </svg>
+                </span>
+                <span class="tab-label">Certs</span>
+            </button>
+        </section>
+
+        <section class="details-grid">
+            <article class="detail-card glass">
+                <h2>Building profile</h2>
+                <ul class="detail-list">
+                    <li>
+                        <span>Type</span>
+                        <strong>Mixed-use commercial</strong>
+                    </li>
+                    <li>
+                        <span>Year built</span>
+                        <strong>2019</strong>
+                    </li>
+                    <li>
+                        <span>Floors</span>
+                        <strong>12</strong>
+                    </li>
+                    <li>
+                        <span>Occupancy</span>
+                        <strong>94%</strong>
+                    </li>
+                </ul>
+            </article>
+
+            <article class="detail-card glass">
+                <h2>Performance snapshot</h2>
+                <div class="metric-bars">
+                    <div class="metric-bar">
+                        <div class="metric-bar-header">
+                            <span>Energy efficiency</span>
+                            <span>88%</span>
+                        </div>
+                        <div class="metric-bar-track">
+                            <div class="metric-bar-fill" style="width: 88%"></div>
+                        </div>
+                    </div>
+                    <div class="metric-bar">
+                        <div class="metric-bar-header">
+                            <span>Renewable share</span>
+                            <span>62%</span>
+                        </div>
+                        <div class="metric-bar-track">
+                            <div class="metric-bar-fill renewable" style="width: 62%"></div>
+                        </div>
+                    </div>
+                    <div class="metric-bar">
+                        <div class="metric-bar-header">
+                            <span>Water recycling</span>
+                            <span>45%</span>
+                        </div>
+                        <div class="metric-bar-track">
+                            <div class="metric-bar-fill water" style="width: 45%"></div>
+                        </div>
+                    </div>
+                </div>
+            </article>
+
+            <article class="detail-card glass detail-card-wide">
+                <h2>Recent highlights</h2>
+                <div class="highlights">
+                    <div class="highlight-item">
+                        <div class="highlight-icon">↓</div>
+                        <div>
+                            <strong>12% reduction</strong>
+                            <p>Energy use vs. last quarter after HVAC tuning</p>
+                        </div>
+                    </div>
+                    <div class="highlight-item">
+                        <div class="highlight-icon">✓</div>
+                        <div>
+                            <strong>LEED recertified</strong>
+                            <p>Platinum status renewed through 2028</p>
+                        </div>
+                    </div>
+                    <div class="highlight-item">
+                        <div class="highlight-icon">◎</div>
+                        <div>
+                            <strong>Solar expansion</strong>
+                            <p>Rooftop array increased capacity by 18 kW</p>
+                        </div>
+                    </div>
+                </div>
+            </article>
+        </section>
+    </main>
+
+    <script src="property.js"></script>
+</body>
+</html>
